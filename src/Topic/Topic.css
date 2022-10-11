@@ -1,0 +1,12 @@
+.topic {
+    border: 1px solid rgb(34, 35, 35);
+
+}
+
+.topic button {
+    background-color: rgb(125, 58, 158);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}

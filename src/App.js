@@ -3,28 +3,30 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from './Header/Header';
 import Header from './Header/Header';
+import Main from './Main/Main';
+import Home from './Home/Home';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Header></Header>,
-      // children: [
-      //   {
-      //     path: '/home',
-      //     element: 
-      //   }, 
-      //   {
-      //     path: '/',
-      //     loader: () => fetch('.json'),
-      //     element: 
-      //   },
+      element: <Main></Main>,
+      children: [
+        // {
+        //   path: '/home',
+        //   element:
+        // },
+        {
+          path: '/',
+          loader: () => fetch('topics.json'),
+          element: <Home></Home>
+        },
 
-      //   {
-      //     path: '/about',
-      //     element: 
-      //   }
-      // ]
+        //   {
+        //     path: '/about',
+        //     element: 
+        //   }
+      ]
 
     }
   ])
