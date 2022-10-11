@@ -1,8 +1,8 @@
 .quiztopics-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    background-color: rgb(142, 118, 118);
+    gap: 30px;
+
     /* border-radius: 20px; */
 }
 

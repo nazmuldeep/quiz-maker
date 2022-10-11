@@ -1,5 +1,6 @@
 .topic {
     border: 1px solid rgb(34, 35, 35);
+    background-color: rgb(142, 118, 118);
 
 }
 
@@ -9,4 +10,8 @@
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
+}
+
+.topic img {
+    padding: 40px;
 }

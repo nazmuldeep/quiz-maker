@@ -22,9 +22,9 @@ function App() {
           element: <Home></Home>
         },
 
-        //   {
-        //     path: '/about',
-        //     element: 
+        // {
+        //   path: '/quiz',
+        //   element: 
         //   }
       ]
 
