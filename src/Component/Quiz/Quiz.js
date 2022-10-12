@@ -1,7 +1,8 @@
 
 import { useLoaderData } from 'react-router-dom';
 import Question from '../Question/Question';
-import Sidebar from '../Sidebar/Sidebar'
+import Sidebar from '../Question/Sidebar/Sidebar';
+
 import './Quiz.css'
 
 
@@ -11,7 +12,7 @@ const Quiz = () => {
     return (
         <div>
             <div className="Quiz_title">
-                <h1>welcome to {name} quiz</h1>
+                <h1>Hey learners Welcome to the {name} quiz</h1>
                 <p>Total Question={questions.length}</p>
             </div>
             <div className="info_container">

@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className='home_container'>
             <div className='header_titel'>
-                <h1>Practice Makes A Man Perfect </h1>
+                <h1>Learners Practice and practice </h1>
                 <p>Total Quiz Topic : {courses.length}</p>
             </div>
             <div className="courses_container">

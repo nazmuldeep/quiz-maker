@@ -1,10 +1,10 @@
 .option {
-    background-color: rgb(238, 183, 196);
+    background-color: rgb(7, 237, 107);
     margin: 15px auto;
     width: 90%;
     padding: 5px;
     border-radius: 15px;
-    box-shadow: 5px 10px rgb(239, 233, 233);
+    box-shadow: 5px 10px rgb(47, 45, 45);
 }
 
 .optopn_link {

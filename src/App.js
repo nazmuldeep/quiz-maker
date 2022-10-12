@@ -42,7 +42,7 @@ function App() {
         }
       ]
     },
-    { path: '*', element: <h1>opps sumthing is wroooong</h1> }
+    { path: '*', element: <h1>Something goes to wrong 404 Not fpund</h1> }
   ])
   return (
     <div className="App">
