@@ -8,16 +8,22 @@ const Home = () => {
     const allTopics = topics.data;
     return (
 
-        <div>
-            <h2>Quiz topic: {topics.data.length}</h2>
-            <div className='home-container'>
-                <div className="quiztopics-container">
-                    {
-                        allTopics.map(topic => <Topic key={allTopics.id} topic={topic}></Topic>)
-                    }
-                </div>
+
+
+        <div className='home-container'>
+            <div className="header-title">
+                <h2>Do practice. Practice Makes a man perfect</h2>
+                <p>Total quiz topic :{allTopics.length}</p>
+            </div>
+            <div className="quiztopics-container">
+                {
+                    allTopics.map(topic =>
+                        <Topic key={allTopics.id}
+                            topic={topic}></Topic>)
+                }
             </div>
         </div>
+
     );
 };
 

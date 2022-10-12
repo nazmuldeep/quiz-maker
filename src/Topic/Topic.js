@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topic.css'
 const Topic = ({ topic }) => {
     const { logo, name } = topic;
@@ -7,7 +8,8 @@ const Topic = ({ topic }) => {
         <div className='topic'>
             <img src={logo} alt="" />
             <h4>{name}</h4>
-            <button>Start quiz</button>
+            <button className='button'>Start quiz</button>
+            {/* <Link className='quiz-button' to={`/topic/${id}`}>Start quiz</Link> */}
         </div>
     );
 };
