@@ -31,7 +31,8 @@ function App() {
         }
       ]
 
-    }
+    },
+    { path: '*', element: <h2>Opps Something is wrong  404 Not Found</h2> }
   ])
   return (
     <div className="App">
