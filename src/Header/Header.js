@@ -10,8 +10,8 @@ const Header = () => {
             <p>Quiz Maker</p>
             <div>
                 <NavLink to='/'>Home</NavLink>
-                <NavLink to='/orders'>Orders</NavLink>
-                <NavLink to='/grandpa'>Grandpa</NavLink>
+                <NavLink to='/topic'>Topic</NavLink>
+                <NavLink to='/grandpa'>Statistics</NavLink>
                 <NavLink to='/about'>About</NavLink>
             </div>
 
